@@ -1,0 +1,17 @@
+.herContainer {
+    max-width: 1920px;
+    height: auto;
+    padding: 50px;
+}
+
+@media (max-width: 768px) {
+    .herContainer {
+        padding: 70px 30px;
+    }
+}
+
+@media (max-width: 425px) {
+    .herContainer {
+        padding: 50px 25px;
+    }
+}
